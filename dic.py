@@ -1,6 +1,6 @@
 def getKeysValues(dicObj):
 	return list(dicObj.keys()),list(dicObj.values())
-	
+
 def getItemsFromDic(dicObj):
 	return list(dicObj.items())
 
