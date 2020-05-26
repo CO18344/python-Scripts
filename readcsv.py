@@ -10,8 +10,11 @@ if __name__ == '__main__':
 		data = list(csv.DictReader(file)) 
 		#list of dictionaries where each dictionary is a row
 
+	#sum function can accept generator function
 	print(sum(getColumn('age',data)))
 
 	#own list of dictionary
-	dl = [{'no':24},{'no':26},{'no':50},{'no':100},{'no':200}]
+	dl = [{'no':24},{'no':26},{'no':26},{'no':100},{'no':200}]
 	print(sum(getColumn('no',dl)))
+
+	print(set(getColumn('no',dl)))
