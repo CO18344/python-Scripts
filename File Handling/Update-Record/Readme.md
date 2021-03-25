@@ -1,1 +1,1 @@
-# Updating record in binary file
+# Updating record in binary file with fixed record size
